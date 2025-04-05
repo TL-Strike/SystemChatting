@@ -1,0 +1,92 @@
+.login-background {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 193, 95, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+    .login-container {
+        width: 400px;
+        margin: 0 auto; // 0: top-bottom | auto: left-right: auto sẽ chạy vào giữa
+        // margin: 1px 2px 3px 4px; // top right bottom left
+        // margin: 1px 2px; // top-bottom right-left
+        height: 100vh;
+        border-radius: 10px;
+        background-color: white;
+
+        .login-content {
+            padding: 10px;
+
+            .text-login {
+                font-weight: 600;
+                font-size: 24px;
+                padding-top: 10px;
+                text-align: center;
+            }
+
+            .login-input {
+                margin: 7px 0;
+            }
+
+            .btn-login {
+                width: 100%;
+                margin: 10px 0px;
+                height: 35px;
+                border-radius: 15px;
+                outline: none;
+                border: none;
+                color: white;
+                font-weight: 600;
+                background: linear-gradient(135deg, rgba(34, 193, 95, 1) 0%, rgba(253, 187, 45, 1) 100%);
+            }
+
+            .forgot-password {
+                font-size: 10px;
+            }
+
+            .social-login {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                margin-top: 10px;
+
+                .google {
+                    font-size: 30px;
+                    background: #db4e4e;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin: 0 5px;
+                }
+
+                .facebook {
+                    font-size: 30px;
+                    background: #4c8ef1;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin: 0 5px;
+                }
+
+                .twitter {
+                    font-size: 30px;
+                    background: #db4e4e;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin: 0 5px;
+                }
+            }
+        }
+    }
+}
+
