@@ -3,13 +3,20 @@
     background: linear-gradient(135deg, rgba(34, 193, 95, 1) 0%, rgba(253, 187, 45, 1) 100%);
 
     .login-container {
-        width: 400px;
-        margin: 0 auto; // 0: top-bottom | auto: left-right: auto sẽ chạy vào giữa
+        // 0: top-bottom | auto: left-right: auto sẽ chạy vào giữa
         // margin: 1px 2px 3px 4px; // top right bottom left
         // margin: 1px 2px; // top-bottom right-left
-        height: 100vh;
+        width: 300px;
+        height: auto;
         border-radius: 10px;
         background-color: white;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 450px;
 
         .login-content {
             padding: 10px;
@@ -23,6 +30,17 @@
 
             .login-input {
                 margin: 7px 0;
+
+                .custom-input-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 5px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+                }
             }
 
             .btn-login {
