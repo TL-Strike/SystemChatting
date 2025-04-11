@@ -48,6 +48,12 @@ class Login extends Component {
         navigate(`${redirectPath}`);
     }
 
+    redirectToChattingPage = () => {
+        const { navigate } = this.props;
+        const redirectPath = '/system/user-chatting';
+        navigate(`${redirectPath}`);
+    }
+
     processLogin = () => {
         const { username, password } = this.state;
 
@@ -67,11 +73,21 @@ class Login extends Component {
         adminLoginSuccess(adminInfo);
         this.refresh();
         this.redirectToSystemPage();
+        // this.redirectToChattingPage();
         try {
             adminService.login(loginBody)
         } catch (e) {
             console.log('error login : ', e)
         }
+
+        // userLoginSuccess(adminInfo);
+        // this.refresh();
+        // this.redirectToSystemPage();
+        // try {
+        //     adminService.login(loginBody)
+        // } catch (e) {
+        //     console.log('error login : ', e)
+        // }
 
     }
 

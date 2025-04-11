@@ -1,0 +1,359 @@
+{
+    "chats": [
+        {
+        "id": 1,
+        "name": "Nhóm nhậu cuối tuần",
+        "type": "group",
+        "lastMessage": "Haha, phạt thế thì anh tới sớm nhất cho coi! Tối thứ 7 gặp nha, giờ anh đi ngủ đây. 😴",
+        "time": "22:48",
+        "members": ["Bạn", "Huy Võ", "Toại Trần", "Nhật Tân Trần", "Hữu Lợi"]
+        },
+        {
+        "id": 2,
+        "name": "Cộng đồng người Bồ",
+        "type": "group",
+        "lastMessage": "Nhật Tân: @Nguyen Huu L...",
+        "time": "36 phút",
+        "members": ["Nhật Tân", "Nguyen Huu L", "Bạn"]
+        },
+        {
+        "id": 3,
+        "name": "Chuu Hoèn",
+        "type": "private",
+        "lastMessage": "Bận đây gửi mình đạn...",
+        "time": "1 giờ",
+        "members": ["Chuu Hoen", "Bạn"]
+        },
+        {
+        "id": 4,
+        "name": "Hội học sinh giỏi",
+        "type": "group",
+        "lastMessage": "Minh Anh: Ai có đề thi thử Toán không?",
+        "time": "2 giờ",
+        "members": ["Minh Anh", "Hà Phương", "Bạn"]
+        },
+        {
+            "id": 5,
+            "name": "Team bóng đá",
+            "type": "group",
+            "lastMessage": "Hoàng: Tối nay đá sân nào anh em?",
+            "time": "10 phút",
+            "members": ["Hoàng", "Dũng", "Bạn"]
+        },
+        {
+            "id": 6,
+            "name": "Lan Anh",
+            "type": "private",
+            "lastMessage": "Mai đi cafe không cậu?",
+            "time": "25 phút",
+            "members": ["Lan Anh", "Bạn"]
+        },
+        {
+            "id": 7,
+            "name": "Nhóm dự án CNTT",
+            "type": "group",
+            "lastMessage": "Nam: Deadline code là thứ 4 nhé!",
+            "time": "45 phút",
+            "members": ["Nam", "Hương", "Bạn"]
+        },
+        {
+            "id": 8,
+            "name": "Gia đình vui vẻ",
+            "type": "group",
+            "lastMessage": "Mẹ: Chủ nhật về ăn cơm cả nhà nha!",
+            "time": "1 giờ",
+            "members": ["Mẹ", "Anh Tuấn", "Bạn"]
+        },
+        {
+            "id": 9,
+            "name": "Trần Phong",
+            "type": "private",
+            "lastMessage": "Cậu gửi mình file bài thuyết trình đi!",
+            "time": "2 giờ",
+            "members": ["Trần Phong", "Bạn"]
+        },
+        {
+            "id": 10,
+            "name": "Câu lạc bộ Guitar",
+            "type": "group",
+            "lastMessage": "Mai Linh: Tối tập bài mới nha mọi người!",
+            "time": "3 giờ",
+            "members": ["Mai Linh", "Kiên", "Bạn"]
+        }
+    ],
+    "messages": [
+        {
+        "id": "1",
+        "chatMessages": [
+            {
+            "id": 1,
+            "sender": "Hữu Lợi",
+            "content": "Cuối tuần nhậu bây ơi",
+            "time": "22:29"
+            },
+            {
+            "id": 2,
+            "sender": "Huy Võ",
+            "content": "Lên lịch liền",
+            "time": "22:29"
+            },
+            {
+            "id": 3,
+            "sender": "Bạn",
+            "content": "Được đó Lợi, lâu rồi không nhậu chung cả nhóm. Nhậu ở đâu đây mọi người?",
+            "time": "22:30"
+            },
+            {
+            "id": 4,
+            "sender": "Toại Trần",
+            "content": "Tui đề xuất quán bia ở đường Lê Lợi nha, chỗ đó rẻ mà đồ nhắm ngon lắm! 🍻",
+            "time": "22:31"
+            },
+            {
+            "id": 5,
+            "sender": "Nhật Tân Trần",
+            "content": "Chỗ đó ok đó Toại, anh đi mấy lần rồi. Nhưng đông người thì phải đặt bàn trước, để anh gọi thử xem sao.",
+            "time": "22:32"
+            },
+            {
+            "id": 6,
+            "sender": "Huy Võ",
+            "content": "Nhanh tay đi anh Tân, không là hết bàn á. Mà đi mấy giờ vậy mọi người?",
+            "time": "22:33"
+            },
+            {
+            "id": 7,
+            "sender": "Bạn",
+            "content": "Tối thứ 7 khoảng 7h được không? Đi sớm chút ngồi lai rai cho thoải mái.",
+            "time": "22:34"
+            },
+            {
+            "id": 8,
+            "sender": "Hữu Lợi",
+            "content": "7h là đẹp, tui ok. Mà uống bia gì đây? Tui thích Tiger, mọi người thì sao? 🐯",
+            "time": "22:35"
+            },
+            {
+            "id": 9,
+            "sender": "Toại Trần",
+            "content": "Tiger ngon, tui cũng thích. Nhưng mà có Heineken không, tui uống cái đó hợp hơn.",
+            "time": "22:36"
+            },
+            {
+            "id": 10,
+            "sender": "Nhật Tân Trần",
+            "content": "Rồi, anh đặt bàn xong rồi nha, bàn cho 5 người, 7h tối thứ 7. Quán có cả Tiger lẫn Heineken, ai thích gì gọi đó.",
+            "time": "22:37"
+            },
+            {
+            "id": 11,
+            "sender": "Bạn",
+            "content": "Tốt quá anh Tân, cảm ơn anh nhiều! 😊 Mà đồ nhắm thì gọi gì đây, tui thèm mực nướng quá!",
+            "time": "22:38"
+            },
+            {
+            "id": 12,
+            "sender": "Huy Võ",
+            "content": "Mực nướng là phải có luôn, thêm đĩa gà chiên mắm nữa nha, quán đó làm món đó ngon lắm! 🐔",
+            "time": "22:39"
+            },
+            {
+            "id": 13,
+            "sender": "Hữu Lợi",
+            "content": "Được đó, thêm đĩa bò xào lá lốt nữa là hết sảy. Mấy ông chuẩn bị ví tiền đi, nhậu xong chắc xỉn quá! 😂",
+            "time": "22:40"
+            },
+            {
+            "id": 14,
+            "sender": "Toại Trần",
+            "content": "Haha, nhậu xong tui bao đi taxi cho, không để ai lái xe đâu mà lo. Mà tui mới lĩnh lương, để tui góp nhiều chút nha! 💸",
+            "time": "22:41"
+            },
+            {
+            "id": 15,
+            "sender": "Nhật Tân Trần",
+            "content": "Tốt, Toại lo taxi thì anh yên tâm rồi. Tiền thì chia đều đi, ai cũng uống mà, đúng không? 😄",
+            "time": "22:42"
+            },
+            {
+            "id": 16,
+            "sender": "Bạn",
+            "content": "Chia đều là công bằng nhất, tui đồng ý. Mà tui mang thêm ít snack ăn chơi nữa nha, để dành lúc chờ món chính.",
+            "time": "22:43"
+            },
+            {
+            "id": 17,
+            "sender": "Huy Võ",
+            "content": "Trời, chuẩn bị kỹ thế! Vậy tui mang ít nước ngọt cho ai không uống bia nữa, tiện thể đổi vị luôn. 🥤",
+            "time": "22:44"
+            },
+            {
+            "id": 18,
+            "sender": "Hữu Lợi",
+            "content": "Tốt, chuẩn bị vậy là ngon rồi. Tui hóng tới thứ 7 quá, lâu lắm không quẩy chung cả nhóm! 🔥",
+            "time": "22:45"
+            },
+            {
+            "id": 19,
+            "sender": "Toại Trần",
+            "content": "Đúng rồi, lần này phải chụp hình đăng story nữa, không là tiếc lắm! 📸",
+            "time": "22:46"
+            },
+            {
+            "id": 20,
+            "sender": "Bạn",
+            "content": "Oke, hẹn tối thứ 7 nha mọi người! Đi đúng giờ nha, ai tới trễ phạt uống 1 lon liền đó! 😜",
+            "time": "22:47"
+            },
+            {
+            "id": 21,
+            "sender": "Nhật Tân Trần",
+            "content": "Haha, phạt thế thì anh tới sớm nhất cho coi! Tối thứ 7 gặp nha, giờ anh đi ngủ đây. 😴",
+            "time": "22:48"
+            }
+        ]
+        },
+        {
+        "id": "2",
+        "chatMessages": [
+            {
+            "id": 1,
+            "sender": "Nhật Tân",
+            "content": "@Nguyen Huu L...",
+            "time": "21:53"
+            }
+        ]
+        },
+        {
+        "id": "3",
+        "chatMessages": [
+            {
+                "id": 1,
+                "sender": "Bạn",
+                "content": "Huyền ơi, thứ 3 tới đi xem phim",
+                "time": "21:29"
+            },
+            {
+                "id": 2,
+                "sender": "Huyền",
+                "content": "Ồ, nghe hay đó! Phim gì thế cậu? 😊",
+                "time": "21:30"
+            },
+            {
+                "id": 3,
+                "sender": "Bạn",
+                "content": "Phim 'Địa Đạo' đó, kinh dị lắm, cậu thích thể loại này không?",
+                "time": "21:31"
+            },
+            {
+                "id": 4,
+                "sender": "Huyền",
+                "content": "Trời ơi, kinh dị hả? Mình hơi sợ nhưng mà cũng tò mò lắm! 😅 Có ai đi cùng không?",
+                "time": "21:32"
+            },
+            {
+                "id": 5,
+                "sender": "Bạn",
+                "content": "Haha, yên tâm, có mình đây mà! Tạm thời mới rủ mỗi cậu thôi, thích đông thì mình rủ thêm nhé?",
+                "time": "21:33"
+            },
+            {
+                "id": 6,
+                "sender": "Huyền",
+                "content": "Ừ, vậy 2 đứa mình đi thôi, đông quá cũng không vui đâu. Mấy giờ chiếu thế?",
+                "time": "21:34"
+            },
+            {
+                "id": 7,
+                "sender": "Bạn",
+                "content": "Để mình xem lịch chiếu đã, cậu thích xem ở rạp nào? CGV hay Lotte?",
+                "time": "21:35"
+            },
+            {
+                "id": 8,
+                "sender": "Huyền",
+                "content": "Mình thích CGV hơn, gần nhà mình chút. Cậu xem giúp mình khung giờ tối nha, khoảng 7h hoặc 8h được không?",
+                "time": "21:36"
+            },
+            {
+                "id": 9,
+                "sender": "Bạn",
+                "content": "Oke, để mình check CGV xem sao. Mà cậu có muốn ăn gì trước khi xem không? 😋",
+                "time": "21:37"
+            },
+            {
+                "id": 10,
+                "sender": "Huyền",
+                "content": "Có chứ! Mình thèm ăn bắp rang bơ với uống trà sữa lắm, lâu rồi không đi xem phim luôn á!",
+                "time": "21:38"
+            },
+            {
+                "id": 11,
+                "sender": "Bạn",
+                "content": "Haha, chuẩn luôn! Vậy mình sẽ mua bắp rang bơ, còn trà sữa thì để mình mời cậu nha! 🥤",
+                "time": "21:39"
+            },
+            {
+                "id": 12,
+                "sender": "Huyền",
+                "content": "Thật hả? Cảm ơn cậu nhiều nha, dễ thương ghê! 😍 Vậy cậu tìm được suất chiếu chưa?",
+                "time": "21:40"
+            },
+            {
+                "id": 13,
+                "sender": "Bạn",
+                "content": "Rồi nè! Có suất 7h30 tối thứ 3 ở CGV Vincom, được không cậu?",
+                "time": "21:41"
+            },
+            {
+                "id": 14,
+                "sender": "Huyền",
+                "content": "Được chứ, giờ đó hợp lý lắm! Mà cậu đặt vé trước chưa, hay tới rạp mua luôn?",
+                "time": "21:42"
+            },
+            {
+                "id": 15,
+                "sender": "Bạn",
+                "content": "Mình đặt trước cho chắc ăn, để mình đặt 2 vé nha. Cậu thích ngồi hàng nào?",
+                "time": "21:43"
+            },
+            {
+                "id": 16,
+                "sender": "Huyền",
+                "content": "Cậu đặt hàng giữa lưng chừng được không? Khoảng hàng 5 hoặc 6 ấy, nhìn rõ màn hình mà không bị mỏi cổ. 😄",
+                "time": "21:44"
+            },
+            {
+                "id": 17,
+                "sender": "Bạn",
+                "content": "Oke, mình đặt hàng 6, ghế E và F nha. Đã đặt xong rồi, tối thứ 3 gặp ở rạp lúc 7h nhé!",
+                "time": "21:45"
+            },
+            {
+                "id": 18,
+                "sender": "Huyền",
+                "content": "Tuyệt vời! Cảm ơn cậu đã lo hết nha, mình hóng quá rồi á! 😊 Mà phim kinh dị, lát sợ thì cậu cho mình nắm tay nha!",
+                "time": "21:46"
+            },
+            {
+                "id": 19,
+                "sender": "Bạn",
+                "content": "Haha, tất nhiên rồi, cứ nắm thoải mái! 😄 Vậy hẹn cậu tối thứ 3 nha, nhớ đến đúng giờ đó!",
+                "time": "21:47"
+            },
+            {
+                "id": 20,
+                "sender": "Huyền",
+                "content": "Chắc chắn rồi, mình sẽ đến sớm chút luôn. Hẹn gặp cậu nha, đi ngủ đây! ❤️",
+                "time": "21:48"
+            },
+            {
+                "id": 21,
+                "sender": "Bạn",
+                "content": "Chúc cậu ngủ ngoan ngoan thiệt ngoannn ❤️",
+                "time": "21:49"
+            }
+            ]
+        }
+    ]
+}

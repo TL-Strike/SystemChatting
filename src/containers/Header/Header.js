@@ -14,8 +14,11 @@ class Header extends Component {
         return (
             <div className="header-container">
                 {/* thanh navigator */}
-                <div className="header-tabs-container">
+                {/* <div className="header-tabs-container">
                     <Navigator menus={adminMenu} />
+                </div> */}
+                <div className="header-chatting">
+                    <p>CHAT</p>
                 </div>
 
                 {/* nút logout */}

@@ -7,7 +7,8 @@ import * as actions from "../../store/actions";
 import './Login.scss';
 import { FormattedMessage } from 'react-intl';
 import { use } from 'react';
-import {handleLoginApi} from '../../services/userService';
+import {handleLoginApi, createNewUserService} from '../../services/userService';
+import ModalCreateNewAccount from '../System/ModalCreateNewAccount';
 
 class Login extends Component {
     constructor(props) {
@@ -16,7 +17,8 @@ class Login extends Component {
             username: '',
             password: '',
             isShowPassword: false,
-            errMessage: ''
+            errMessage: '',
+            isOpenModalCreateNewUser: false,
         }
     }
 
@@ -71,11 +73,49 @@ class Login extends Component {
         })
     }
 
+    //Show or Hide
+    toggleCreateNewAccount = () => {
+        this.setState({
+            isOpenModalCreateNewUser: !this.state.isOpenModalCreateNewUser,
+        })
+    }
+
+    handleCreateNewAccount = () => {
+        this.setState({
+            isOpenModalCreateNewUser: true
+        })
+    }
+
+    createNewAccount = async (data) => {
+        try {
+            let response = await createNewUserService(data);
+            if(response && response.errCode !== 0) {
+                alert(response.errMessage)
+            }
+            else {
+                this.setState({
+                    isOpenModalCreateNewUser: false
+                })
+            }
+            // console.log("response create user: ", response)
+        } catch (e) {
+            console.log(e)
+        }
+        
+        // console.log('data from child ', data);
+    }
+
+
     render() {
         //Code JSX
         
         return (
             <div className="login-background">
+                <ModalCreateNewAccount
+                    isOpen={this.state.isOpenModalCreateNewUser}
+                    toggleFromParent={this.toggleCreateNewAccount}
+                    createNewAccount={this.createNewAccount}
+                />
                 <div className="login-container">
                     <div className="login-content row">
                         <div className="col-12 text-login">LOGIN</div>
@@ -104,14 +144,8 @@ class Login extends Component {
                         <div className="col-12">
                             <span className='forgot-password'>Forgot your password</span>
                         </div>
-                        <div className="col-12 text-center mt-3">
-                            <span className='text-other-login'>All Login With: </span>
-                        </div>
-                        <div className='col-12 social-login'>
-                            {/* Icons for social login - From FontAwesome */}
-                            <i className="fab fa-google-plus-g google"></i>
-                            <i className="fab fa-facebook-f facebook"></i>
-                            <i className="fab fa-twitter twitter"></i>
+                        <div className="col-12">
+                            <button className='btn-create-new-account' onClick={() => {this.handleCreateNewAccount()}}>Create New Account</button>
                         </div>
                     </div>
                 </div>
@@ -129,7 +163,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         navigate: (path) => dispatch(push(path)),
-        // userLoginFail: () => dispatch(actions.adminLoginFail()),
+        // userLoginFail: () => dispatch(actions.userLoginFail()),
         userLoginSuccess: (userInfor) => dispatch(actions.userLoginSuccess(userInfor))
     };
 };

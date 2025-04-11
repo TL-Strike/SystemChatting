@@ -1,0 +1,32 @@
+/* src/styles/ChatWindow.scss */
+.chat-window {
+    flex: 1;
+    background: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    // padding: 50vh;
+    .select-to-chat {
+        padding: 50vh;
+    }
+
+    .chat-window-header {
+        padding: 20px;
+        border-bottom: 1px solid #333;
+        h2 {
+        font-size: 20px;
+        margin: 0;
+        }
+        p {
+        font-size: 14px;
+        color: #aaa;
+        margin: 5px 0;
+        }
+    }
+
+    .chat-window-messages {
+        flex: 1;
+        padding: 20px;
+        overflow-y: auto;
+    }
+}

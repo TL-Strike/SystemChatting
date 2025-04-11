@@ -1,0 +1,40 @@
+/* src/styles/Message.scss */
+.message {
+    display: flex;
+    margin-bottom: 10px;
+
+    .message-content {
+        max-width: 60%;
+        padding: 10px;
+        border-radius: 10px;
+
+        p {
+            margin: 0;
+        }
+
+        span {
+            font-size: 12px;
+            color: #aaa;
+            display: block;
+            margin-top: 5px;
+        }
+    }
+
+    &.message-me {
+        justify-content: flex-end;
+
+        .message-content {
+            background: #0084ff;
+            color: white;
+        }
+    }
+
+    &.message-other {
+        justify-content: flex-start;
+
+        .message-content {
+            background: #333;
+            color: white;
+        }
+    }
+}
